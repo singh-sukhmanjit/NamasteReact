@@ -1,0 +1,26 @@
+Extensions used
+Better comments
+Bracket pair colorization
+react/redux
+gitlens
+prettier
+vscode-icons
+
+Read about Emmet - Gives boilerplate code
+What is CDN
+
+Include react, react dom using cdn
+<div id="root">Not rendered</div>
+Anything inside root will not render as React will override it.
+If React is not included or is not working then Not rendered will print on screen. Its also a industry standard practise	
+const heading = React.createElement("h1", {}, "Hello World")
+const root = ReactDOM.createRoot(document.getElementById("root"))
+
+createRoot will tell in which element react will run
+
+Difference b/w async and defer
+
+Assignment
+Build html file
+Use js then react create root, createElement
+install all extensions
